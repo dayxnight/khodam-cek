@@ -1,11 +1,7 @@
 async function cekKhodam() {
     const nameInput = document.getElementById('nameInput').value;
     if (!nameInput) {
-        Swal.fire({
-            title: 'GAK BOLEH KOSONG!😡',
-            icon: 'error',
-            confirmButtonText: 'OK'
-        });
+        showPopup('GAK BOLEH KOSONG!😡');
         return;
     }
     document.getElementById('loading').style.display = 'block';
@@ -20,12 +16,7 @@ async function cekKhodam() {
             document.getElementById('khodamMeaning').innerText = khodam.meaning;
             document.getElementById('result').style.display = 'block';
         } catch (err) {
-            Swal.fire({
-                title: 'Gagal memuat data!',
-                text: 'Pastikan file khodam.json sudah ada.',
-                icon: 'error',
-                confirmButtonText: 'OK'
-            });
+            showPopup('Gagal memuat data! Pastikan file khodam.json sudah ada dan valid.');
         } finally {
             document.getElementById('loading').style.display = 'none';
         }
