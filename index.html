@@ -34,33 +34,7 @@
     </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script>
-        function cekKhodam() {
-            const nameInput = document.getElementById('nameInput').value;
-            if (!nameInput) {
-                Swal.fire({
-                    title: 'GAK BOLEH KOSONG!😡',
-                    icon: 'error',
-                    confirmButtonText: 'OK'
-                });
-                return;
-            }
-            document.getElementById('loading').style.display = 'block'; // Tampilkan spinner
-            setTimeout(() => {
-                
-                const khodam = khodams[Math.floor(Math.random() * khodams.length)];
-                document.getElementById('khodamName').innerHTML = `Khodam: <span>${khodam.name}</span>`;
-                document.getElementById('khodamMeaning').innerText = khodam.meaning;
-                document.getElementById('result').style.display = 'block';
-                document.getElementById('loading').style.display = 'none'; // Sembunyikan spinner
-            }, 2000); // Delay untuk simulasi loading
-        }
-
-        function resetForm() {
-            document.getElementById('nameInput').value = '';
-            document.getElementById('result').style.display = 'none';
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
