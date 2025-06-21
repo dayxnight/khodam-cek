@@ -10,7 +10,7 @@ body {
     height: 100vh;
 }
 .card {
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -23,6 +23,13 @@ h1 {
     color: hsl(265, 80%, 60%);
     letter-spacing: 1px;
     font-weight: bold;
+}
+.input-field {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 24px;
 }
 
 input[type="text"] {
