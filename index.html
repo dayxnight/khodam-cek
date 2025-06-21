@@ -9,29 +9,27 @@
     </head>
     <body>
         <div class="container">
-          <div class="card">
-            
-            <h1>Cek Khodam</h1>
-            <input
-                id="nameInput"
-                type="text"
-                placeholder="Masukkan nama kamu"
-            />
-            <button onclick="cekKhodam()">Cek Khodam</button>
-            <button onclick="resetForm()">Reset</button>
+            <div class="card">
+                <h1>Cek Khodam</h1>
+                <input
+                    id="nameInput"
+                    type="text"
+                    placeholder="Masukkan nama kamu"
+                />
+                <button onclick="cekKhodam()">Cek Khodam</button>
+                <button onclick="resetForm()">Reset</button>
 
-            <div id="loading">
-                <div class="loader-m3"><div></div></div>
-                <div style="margin-top: 0.7rem">Memanggil khodam...</div>
-            </div>
+                <div id="loading">
+                    <div class="loader-m3"><div></div></div>
+                    <div style="margin-top: 0.7rem">Memanggil khodam...</div>
+                </div>
 
-            <div id="result">
-                <div id="khodamName"></div>
-                <div id="khodamMeaning"></div>
+                <div id="result">
+                    <div id="khodamName"></div>
+                    <div id="khodamMeaning"></div>
+                </div>
             </div>
         </div>
-
-          </div>
         <div id="customPopup" class="popup">
             <div class="popup-content">
                 <span id="popupMessage"></span>
