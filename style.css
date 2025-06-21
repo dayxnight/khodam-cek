@@ -134,6 +134,8 @@ button:hover {
     color: hsl(265, 80%, 45%);
     padding: 10px;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
     min-width: 220px;
     box-shadow: 0 4px 32px hsla(265, 80%, 60%, 0.1);
     text-align: center;
