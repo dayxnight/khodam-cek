@@ -28,9 +28,21 @@ function resetForm() {
     document.getElementById('result').style.display = 'none';
 }
 function showPopup(message) {
+    const popup = document.getElementById('customPopup');
     document.getElementById('popupMessage').innerText = message;
-    document.getElementById('customPopup').style.display = 'flex';
+    popup.classList.add('show');
+    // Paksa reflow supaya animasi transition berjalan (untuk display: flex)
+    void popup.offsetWidth; // trigger reflow
+    setTimeout(() => {
+        popup.querySelector('.popup-content').style.opacity = '1';
+        popup.querySelector('.popup-content').style.transform = 'translateY(0) scale(1)';
+    }, 10);
 }
 function closePopup() {
-    document.getElementById('customPopup').style.display = 'none';
+    const popup = document.getElementById('customPopup');
+    popup.querySelector('.popup-content').style.opacity = '0';
+    popup.querySelector('.popup-content').style.transform = 'translateY(-30px) scale(0.96)';
+    setTimeout(() => {
+        popup.classList.remove('show');
+    }, 250);
 }
