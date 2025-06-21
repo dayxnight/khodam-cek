@@ -22,10 +22,11 @@ body {
 h1 {
     color: hsl(265, 80%, 60%);
     letter-spacing: 1px;
+    font-weight: bold;
 }
 
 input[type="text"] {
-    padding: 5px;
+    padding: 10px;
     font-size: 20px;
     border: 2px solid hsl(265, 80%, 85%);
     border-radius: 24px;
