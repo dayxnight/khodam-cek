@@ -14,7 +14,7 @@ async function cekKhodam() {
 
             document.getElementById('khodamName').innerHTML = `Khodam: <span>${khodam.name}</span>`;
             document.getElementById('khodamMeaning').innerText = khodam.meaning;
-            document.getElementById('result').style.display = 'block';
+            document.getElementById('result').style.display = 'flex';
         } catch (err) {
             showPopup('Gagal memuat data! Pastikan file khodam.json sudah ada dan valid.');
         } finally {
