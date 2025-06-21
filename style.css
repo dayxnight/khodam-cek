@@ -130,7 +130,6 @@ button:hover {
     align-items: center;
     justify-content: center;
     transition: background 0.3s;
-    transition: backdrop-filter 3s;
 }
 .popup-content {
     background: hsl(265, 80%, 95%);
