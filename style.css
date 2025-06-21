@@ -115,11 +115,10 @@ button:hover {
 
 #khodamMeaning {
     font-size: 20px;
-    padding: 5px;
+    padding: 10px;
     border-left: 3px solid hsl(265, 80%, 80%);
     background: hsl(265, 80%, 95%);
     color: hsl(265, 80%, 85%);
-    border-radius: 24px;
 }
 
 .popup {
