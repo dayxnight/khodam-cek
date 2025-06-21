@@ -158,7 +158,7 @@ button:hover {
 .popup-content button {
     padding: 5px 10px;
     border: none;
-    background: hsl(265, 80%, 75%);
+    background: hsl(265, 80%, 65%);
     color: hsl(265, 80%, 95%);
     border-radius: 30px;
     cursor: pointer;
