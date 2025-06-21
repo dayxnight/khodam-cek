@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     gap: 10px;
     background: hsl(265, 80%, 30%);
-    border-radius: px;
+    border-radius: 30px;
     max-width: 340px;
     margin: auto;
     box-shadow: 0 2px 18px hsla(265, 80%, 75%, 0.1);
