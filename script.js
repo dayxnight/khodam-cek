@@ -36,3 +36,10 @@ function resetForm() {
     document.getElementById('nameInput').value = '';
     document.getElementById('result').style.display = 'none';
 }
+function showPopup(message) {
+    document.getElementById('popupMessage').innerText = message;
+    document.getElementById('customPopup').style.display = 'flex';
+}
+function closePopup() {
+    document.getElementById('customPopup').style.display = 'none';
+}
