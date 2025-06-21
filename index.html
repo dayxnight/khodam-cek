@@ -13,14 +13,17 @@
   <button onclick="cekKhodam()">Cek Khodam</button>
   <button onclick="resetForm()">Reset</button>
 
-  <div id="loading">Memanggil khodam... <br> <span class="spinner">🔮</span></div>
+  <div id="loading">
+  <div class="loader-m3"><div></div></div>
+  <div style="margin-top: 0.7rem;">Memanggil khodam...</div>
+</div>
 
   <div id="result">
     <div id="khodamName"></div>
     <div id="khodamMeaning"></div>
   </div>
 
-<div id="customPopup" class="popup">
+<div<div id="customPopup" class="popup">
   <div class="popup-content">
     <span id="popupMessage"></span>
     <button onclick="closePopup()">OK</button>
