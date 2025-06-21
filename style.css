@@ -124,7 +124,7 @@ button:hover {
     top: 0;
     width: 100%;
     height: 100vh;
-    background: hsla(265, 60%, 30%, 0.1);
+    background: hsla(265, 80%, 10%, 0.4);
     backdrop-filter: blur(5px);
     align-items: center;
     justify-content: center;
