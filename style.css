@@ -15,11 +15,10 @@ body {
     flex-direction: column;
     gap: 10px;
     background: hsl(265, 80%, 30%);
-    border-radius: 30px;
+    border-radius: px;
     max-width: 340px;
     margin: auto;
-        box-shadow: 0 2px 18px hsla(265, 80%, 75%, 0.1);
-
+    box-shadow: 0 2px 18px hsla(265, 80%, 75%, 0.1);
 }
 h1 {
     color: hsl(265, 80%, 60%);
@@ -39,7 +38,7 @@ input[type="text"] {
     padding: 10px;
     font-size: 20px;
     border: 3px solid hsl(265, 80%, 85%);
-    border-radius: 24px;
+    border-radius: 10px;
     background: hsl(265, 80%, 97%);
     color: hsl(265, 80%, 30%);
     transition: border 0.2s;
