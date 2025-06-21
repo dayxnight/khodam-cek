@@ -107,7 +107,7 @@ button:hover {
 }
 
 #khodamName span {
-  font-size: 20px;
+    font-size: 20px;
     font-weight: bold;
     color: hsl(265, 80%, 75%);
     letter-spacing: 1px;
@@ -115,6 +115,8 @@ button:hover {
 
 #khodamMeaning {
     font-size: 20px;
+    padding: 5px;
+    background: hsl(265, 80%, 80%);
 }
 
 .popup {
