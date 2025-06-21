@@ -132,10 +132,10 @@ button:hover {
 .popup-content {
     background: hsl(265, 80%, 95%);
     color: hsl(265, 80%, 45%);
-    padding: 2rem 1.4rem 1rem 1.4rem;
-    border-radius: 32px;
+    padding: 10px;
+    border-radius: 30px;
     min-width: 220px;
-    box-shadow: 0 4px 32px hsl(265, 60%, 60%, 0.1);
+    box-shadow: 0 4px 32px hsla(265, 80%, 60%, 0.1);
     text-align: center;
     position: relative;
     opacity: 0;
