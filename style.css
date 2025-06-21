@@ -133,6 +133,7 @@ button:hover {
     background: hsl(265, 80%, 95%);
     color: hsl(265, 80%, 45%);
     padding: 10px;
+    gap: 10px;
     border-radius: 24px;
     display: flex;
     flex-direction: column;
