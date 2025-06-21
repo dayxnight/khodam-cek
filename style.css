@@ -25,11 +25,12 @@ h1 {
     font-weight: bold;
 }
 .input-field {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  border-radius: 24px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 24px;
+    background: hsl(265,80%,90%);
 }
 
 input[type="text"] {
