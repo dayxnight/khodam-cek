@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     text-align: center;
-    padding: 5px;
+    padding: 2rem;
     background: hsl(265, 70%, 98%);
     color: hsl(265, 60%, 20%);
 }
