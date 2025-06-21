@@ -101,7 +101,9 @@ button:hover {
 
 #result {
     display: none;
-    padding: 10px;
+    padding: 15px;
+    flex-direction: column;
+    gap: 10px;
     border-radius: 20px;
     background: hsl(265, 80%, 90%);
 }
@@ -109,16 +111,17 @@ button:hover {
 #khodamName span {
     font-size: 20px;
     font-weight: bold;
-    color: hsl(265, 80%, 75%);
+    color: hsl(265, 80%, 70%);
     letter-spacing: 1px;
 }
 
 #khodamMeaning {
     font-size: 20px;
     padding: 10px;
-    border-left: 3px solid hsl(265, 80%, 80%);
+    text-align: left;
+    border-left: 3px solid hsl(265, 80%, 70%);
     background: hsl(265, 80%, 95%);
-    color: hsl(265, 80%, 85%);
+    color: hsl(265, 80%, 75%);
 }
 
 .popup {
