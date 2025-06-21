@@ -4,8 +4,6 @@
   <meta charset="UTF-8">
   <title>Cek Khodam</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- SweetAlert2 (untuk pop-up error) -->
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <!-- Hubungkan ke style eksternal -->
   <link rel="stylesheet" href="style.css">
 </head>
@@ -21,6 +19,13 @@
     <div id="khodamName"></div>
     <div id="khodamMeaning"></div>
   </div>
+
+<div id="customPopup" class="popup">
+  <div class="popup-content">
+    <span id="popupMessage"></span>
+    <button onclick="closePopup()">OK</button>
+  </div>
+</div>
 
   <!-- Hubungkan ke script eksternal -->
   <script src="script.js"></script>
