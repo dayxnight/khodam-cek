@@ -5,7 +5,12 @@ body {
     background: hsl(265, 70%, 98%);
     color: hsl(265, 60%, 20%);
 }
-
+.container {
+  padding: 5px;
+  display: flex;
+  gap: 5px;
+  background: hsl(265, 80%,90%);
+}
 h1 {
     color: hsl(265, 80%, 60%);
     margin-bottom: 1.5rem;
