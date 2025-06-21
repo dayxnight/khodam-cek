@@ -38,7 +38,7 @@ input[type="text"] {
     padding: 10px;
     font-size: 20px;
     border: 3px solid hsl(265, 80%, 85%);
-    border-radius: 10px;
+    border-radius: 20px;
     background: hsl(265, 80%, 97%);
     color: hsl(265, 80%, 30%);
     transition: border 0.2s;
@@ -53,7 +53,7 @@ button {
     padding: 10px 20px;
     font-size: 20px;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     background: hsl(265, 80%, 65%);
     color: hsl(265, 80%, 90%);
     cursor: pointer;
