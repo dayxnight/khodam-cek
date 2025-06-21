@@ -107,6 +107,7 @@ button:hover {
 }
 
 #khodamName span {
+  font-size: 20px;
     font-weight: bold;
     color: hsl(265, 80%, 75%);
     letter-spacing: 1px;
