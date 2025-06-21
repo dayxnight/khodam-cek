@@ -1,40 +1,28 @@
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>☠️ Cek Khodam ☠️</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Cek Khodam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- SweetAlert2 (untuk pop-up error) -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- Hubungkan ke style eksternal -->
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="container">
-    <div class="card">
-        <h1>Cek Khodam kamu</h1>
-        <p>Masukkan nama untuk mengetahui khodam</p>
-        <input type="text" id="nameInput" placeholder="Ketik nama kamu di sini...">
-        <div class="button">
-        <button id="cek" onclick="cekKhodam()">Cek Khodam</button>
-        <button id="reset"  onclick="resetForm()">Cek Lagi</button>
-        </div>
-        <div id="loading" class="loading-spinner" style="display: none;"></div>
-        
-        <div id="result" style="display: none;"
-        >
-            <h2 id="khodamName"></h2>
-            <p id="khodamMeaning"></p>
-        </div>
-    </div>
-    
-    <div class="footer">
-        © 2024 <a target="_blank">Dayx</a>
-    </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script src="script.js"></script>
-</body>
+  <h1>Cek Khodam</h1>
+  <input id="nameInput" type="text" placeholder="Masukkan nama kamu">
+  <button onclick="cekKhodam()">Cek Khodam</button>
+  <button onclick="resetForm()">Reset</button>
 
+  <div id="loading">Memanggil khodam... <br> <span class="spinner">🔮</span></div>
+
+  <div id="result">
+    <div id="khodamName"></div>
+    <div id="khodamMeaning"></div>
+  </div>
+
+  <!-- Hubungkan ke script eksternal -->
+  <script src="script.js"></script>
+</body>
 </html>
